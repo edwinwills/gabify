@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Gabify",
+  "description": "Gabify any website",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["http://*/*","https://*/*"],
+      "js": ["add_gab.js"]
+    }
+  ]
+}
